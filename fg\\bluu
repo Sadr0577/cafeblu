@@ -1,0 +1,16 @@
+# ۱. یک پوشه بساز و واردش شو
+mkdir cafe-blu-menu
+cd cafe-blu-menu
+
+# ۲. فایل HTML رو داخل همین پوشه ذخیره کن (مثلاً با نام: menu.html)
+
+# ۳. Git رو راه‌اندازی کن
+git init
+git add menu.html
+git commit -m "Add cafe menu"
+
+# ۴. مخزن رو به عنوان remote معرفی کن
+git remote add origin https://github.com/USERNAME/cafe-blu-menu.git
+
+# ۵. فایل‌ها رو آپلود کن
+git push -u origin master
